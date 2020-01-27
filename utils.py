@@ -96,9 +96,6 @@ def read_data(word2id, max_aspect_len, max_context_len, dataset, pre_processed):
         with open(save_fname, 'w') as f:
             for i in range(0, len(lines), 3):
                 polarity = lines[i + 2].split()[0]
-                if polarity == 'conflict':
-                    continue
-
                 context_sptoks = nlp(lines[i].strip())
                 context = []
                 for sptok in context_sptoks:
@@ -117,8 +114,6 @@ def read_data(word2id, max_aspect_len, max_context_len, dataset, pre_processed):
                 f.write("%s\n" % contexts[-1])
                 if polarity == 'negative':
                     labels.append([1, 0])
-#                 elif polarity == 'neutral':
-#                     labels.append([0, 1, 0])
                 elif polarity == 'positive':
                     labels.append([0, 1])
                 f.write("%s\n" % labels[-1])
