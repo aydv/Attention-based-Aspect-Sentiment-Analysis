@@ -16,7 +16,7 @@ Tensorflow implementation of aspect and context based attention netowrk for aspe
 * spacy 
 
 ## Model Architecture 
-![Alt text](/Users/ankityadav/Downloads/model_architecture.png?raw=true "Model Architecture")
+![image](https://user-images.githubusercontent.com/23417882/73246567-f22b0800-41d4-11ea-88d9-bdad8b6b19d7.png)?raw=true "Model Architecture")
 
 ### Preprocessing
 Preprocessed files in data dir
