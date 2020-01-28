@@ -25,14 +25,4 @@ NASNet for model hyper parameter tunning
 
 ## Authors
 
-* **Ankit Yadav** -
-
-
-## License
-
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* **Ankit Yadav**
