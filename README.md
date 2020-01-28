@@ -30,4 +30,4 @@ Preprocessed files in data dir
 
 ## Authors
 
-* **Ankit Yadav**
+* **Ankit**
