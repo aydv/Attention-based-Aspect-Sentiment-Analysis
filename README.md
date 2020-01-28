@@ -15,6 +15,9 @@ Tensorflow implementation of aspect and context based attention netowrk for aspe
 * Glove 300D word embeddings from http://nlp.stanford.edu/data/glove.840B.300d.zip and put it in data/
 * spacy 
 
+## Model Architecture 
+![Alt text](/Users/ankityadav/Downloads/model_architecture.png?raw=true "Title")
+
 ### Preprocessing
 Preprocessed files in data dir
 
