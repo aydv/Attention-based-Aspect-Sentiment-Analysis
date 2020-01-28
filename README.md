@@ -6,6 +6,8 @@ Tensorflow implementation of aspect and context based attention netowrk for aspe
 * run main.py for training & evaluation and epoch wise prediction on test data
 * Preprocessed data is stored in data/
 * model.py contains model architecture
+* logs for tensorboard summary visulaization
+
 
 ### Prerequisites
 
