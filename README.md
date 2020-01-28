@@ -17,9 +17,9 @@ Tensorflow implementation of aspect and context based attention netowrk for aspe
 Preprocessed files in data dir
 
 ## Further Work
-* Replace LSTM layers with Transformers(Convert it BERT downstream task)
+* Replace LSTM layers with Transformers(Convert it to BERT downstream task)
 * Fastext and context aware dynamic meta embeddings for out of vocab words
-* External datasets from Twitter, Restraunt reviews to increase model performance* 
+* External datasets from Twitter, restaurant reviews to increase model performance* 
 * NASNet for model hyper parameter tunning
 
 ## Authors
